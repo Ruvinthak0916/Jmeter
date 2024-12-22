@@ -42,7 +42,7 @@ jobs:
       - name: Run JMeter test plan  
         run: |   
          mkdir -p results    
-         ~/jmeter/bin/jmeter -n -t test-plans/test-plan-example1-API.jmx -l results/results.jtl -j results/jmeter.log
+         ~/jmeter/bin/jmeter -n -t test-plans/Test-Plan-3.jmx -l results/results.jtl -j results/jmeter.log
 
 
       # Step 4: Save results as artifacts
